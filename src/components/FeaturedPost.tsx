@@ -1,9 +1,9 @@
 'use client'
-import { getFeaturedPosts } from '@/services';
 import React, { useState, useEffect } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import FeaturedPostCard from './FeaturedPostCard';
+import { getFeaturedPosts } from '@/services';
 
 
 const responsive = {

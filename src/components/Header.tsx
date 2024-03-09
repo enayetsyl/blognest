@@ -1,6 +1,6 @@
 "use client";
-import { getCategories } from "@/services";
 
+import { getCategories } from "@/services";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 

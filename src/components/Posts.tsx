@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from "react"
-import getPosts from '@/services/index'
 import PostCard from "./PostCard"
+import getPosts from "@/services"
 
 const Posts = () => {
   const [posts, setPosts] = useState([])

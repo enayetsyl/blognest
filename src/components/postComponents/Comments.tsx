@@ -1,9 +1,9 @@
 'use client'
-import { getComments } from '@/services'
 import moment from 'moment'
 import React, { useEffect, useState } from 'react'
 import parse from 'html-react-parser'
 import { Comment } from '@/types/Types'
+import { getComments } from '@/services'
 
 const Comments: React.FC<{slug: string}> = ({slug}) => {
   const [comments, setComments] = useState<Comment[]>([])

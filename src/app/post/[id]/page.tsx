@@ -1,6 +1,6 @@
 'use client'
 import { Author, Categories, Comments, CommentsForm, PostDetail, PostWidget } from '@/constant'
-import {  getPostDetails } from '@/services'
+import { getPostDetails } from '@/services'
 import { PostData } from '@/types/Types'
 import { useParams } from 'next/navigation'
 import { useEffect, useState } from "react"
