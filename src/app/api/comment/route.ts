@@ -1,11 +1,11 @@
 import { GraphQLClient, gql } from "graphql-request"
-import { NextResponse } from "next/server"
+import { NextRequest, NextResponse } from "next/server"
 
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT
 
 const graphcmsToken = process.env.GRAPHCMS_TOKEN
 
-export const POST = async (request) => {
+export const POST = async (request : NextRequest) => {
   console.log('route hit')
   const { name, email, slug, comment} = await request.json()
   console.log('name', name)
