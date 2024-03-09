@@ -253,9 +253,7 @@ interface CommentObj {
   slug: string;
 }
 
-Type 'string' is not assignable to type 'number'.ts(2322)
-index.d.ts(3523, 9): The expected type comes from property 'rows' which is declared here on type 'DetailedHTMLProps<TextareaHTMLAttributes<HTMLTextAreaElement>, HTMLTextAreaElement>'
-(property) TextareaHTMLAttributes<HTMLTextAreaElement>.rows?: number | undefined
+
 
 
 
